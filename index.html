@@ -1,117 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Tilicho Tours and Travels Pvt.ltd </title>
+<meta charset="UTF-8">
+<title>Tilicho Tours and Travels Pvt. Ltd.</title>
 
-  <style>
-    body { margin:0; font-family:Arial; background:#f4f4f4; }
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+color:#333;
+}
 
-    .hero {
-      background:url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4');
-      background-size:cover;
-      height:60vh;
-      color:white;
-      display:flex;
-      flex-direction:column;
-      justify-content:center;
-      align-items:center;
-      text-align:center;
-    }
+.hero{
+background:url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4');
+background-size:cover;
+background-position:center;
+height:60vh;
+color:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
 
-    .hero h1 { font-size:45px; margin:0; }
-    
+.hero h1{
+font-size:45px;
+margin:0;
+}
 
-    .btn {
-      margin-top:15px;
-      padding:12px 20px;
-      background:#25D366;
-      color:white;
-      text-decoration:none;
-      border-radius:8px;
-    }
+.btn{
+margin-top:15px;
+padding:12px 20px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
 
-    .section {
-      padding:30px;
-      text-align:center;
-    }
+.section{
+padding:40px 20px;
+text-align:center;
+}
 
-    .card {
-      background:white;
-      padding:15px;
-      margin:10px;
-      display:inline-block;
-      width:220px;
-      border-radius:10px;
-      box-shadow:0 2px 6px rgba(0,0,0,0.1);
-    }
-  </style>
+.card{
+background:white;
+padding:15px;
+margin:10px;
+display:inline-block;
+width:220px;
+border-radius:10px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.navbar{
+background:#fff;
+padding:15px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+position:sticky;
+top:0;
+z-index:999;
+}
+
+.navbar a{
+margin:0 10px;
+text-decoration:none;
+color:#333;
+font-weight:bold;
+}
+</style>
 
 </head>
 
 <body>
-  <div style="background:#fff; padding:15px 20px; display:flex; justify-content:space-between; align-items:center; box-shadow:0 2px 8px rgba(0,0,0,0.1); position:sticky; top:0; z-index:999;">
 
-  <div style="font-weight:bold; font-size:20px;">
-    Tilicho Tours
-  </div>
+<div class="navbar">
+<div style="font-size:20px; font-weight:bold;">
+Tilicho Tours
+</div>
 
-  <div><h2>Popular Packages</h2>
-    
-    <a href="#home" style="margin:0 10px; text-decoration:none; color:#333;">Home</a>
-    <a href="#packages" style="margin:0 10px; text-decoration:none; color:#333;">Packages</a>
-    <a href="#about" style="margin:0 10px; text-decoration:none; color:#333;">About</a>
-    <a href="#contact" style="margin:0 10px; text-decoration:none; color:#333;">Contact</a>
-  </div>
-
+<div>
+<a href="#home">Home</a>
+<a href="#packages">Packages</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</div>
 </div>
 
 <div class="hero" id="home">
-  <h1>Tilicho Tours Nepal</h1>
-  <p>Explore Nepal with Local Experts</p>
-  <a class="btn" href="https://wa.me/9779856023917">Book on WhatsApp</a>
-</div>
+<h1>Tilicho Tours Nepal</h1>
+<p>Explore Nepal with Local Experts</p>
 
-
-
-  <div class="card">🏔 Tilicho Lake Trek</div>
-  <div class="card">🏔 Annapurna Base Camp</div>
-  <div class="card">🏔 Mardi Himal Trek</div>
-  <div class="card">🏔 Pokhara Tour</div>
-</div>
-
-
-<div class="section" id="about">
-<h2>About Us</h2>
-
-  <p>
-    Tilicho Tours Nepal is a local trekking company based in Pokhara.
-    We specialize in Annapurna Region Trekking , Everest Region Trekking , Manslu Region Trekking ,Special Tilicho Lake Trekking , Mustang Trekking  and other Himalayan adventures. Alo we do National and Itnrenational flight tickets, vechile hire etc . 
-  </p>
+<a class="btn" href="https://wa.me/9779856023917">
+Book on WhatsApp
+</a>
 </div>
 
 <div class="section" id="packages">
 <h2>Popular Packages</h2>
-...
-</div>
-  <p><div class="section">
-<h2>Why Choose Us?</h2>
-    ✔ Experienced Local Guides<br>
-    ✔ Safe & Reliable Service<br>
-    ✔ Best Price Guarantee<br>
-    ✔ Customizable Itineraries
-  </p>
+
+<div class="card">🏔 Tilicho Lake Trek</div>
+<div class="card">🏔 Annapurna Base Camp</div>
+<div class="card">🏔 Mardi Himal Trek</div>
+<div class="card">🏔 Pokhara Tour</div>
+
 </div>
 
+<div class="section" id="about">
+<h2>About Us</h2>
+
+<p>
+Tilicho Tours Nepal is a local trekking company based in Pokhara.
+We specialize in Annapurna, Everest, Manaslu, Tilicho Lake and Mustang adventures.
+We also provide domestic and international flight tickets and vehicle hire services.
+</p>
+
+</div>
+
+<div class="section">
+<h2>Why Choose Us?</h2>
+
+<p>
+✔ Experienced Local Guides<br>
+✔ Safe & Reliable Service<br>
+✔ Best Price Guarantee<br>
+✔ Customizable Itineraries
+</p>
+
+</div>
 
 <div class="section" id="contact">
-  <p>📍  Lakeside- Pokhara, Nepal</p>
-  <p>📞 +977-061-455269 
-    +977 9856023917</p>
+<h2>Contact Us</h2>
 
-  <a class="btn" href="https://wa.me/9779856023917">
-    Chat on WhatsApp
-  </a>
+<p>📍 Lakeside, Pokhara, Nepal</p>
+
+<p>
+📞 +977-061-455269<br>
+📱 +977-9856023917
+</p>
+
+<a class="btn" href="https://wa.me/9779856023917">
+Chat on WhatsApp
+</a>
+
 </div>
 
 </body>
